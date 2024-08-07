@@ -54,18 +54,18 @@ class StellarBurgersLocators:
     LOG_OUT_BUTTON = (By.XPATH, ".//button[text() = 'Выход']")
 
     # вкладка "Булки" в активном и неактивном состоянии
-    BUNS_ACTIVE = (By.XPATH, ".//div[contains(@class, 'tab_tab_type_current__2BEPc')]/span[text() = 'Булки']")
-    BUNS_IN_ACTIVE = (By.XPATH, ".//div[contains(@class, '1SPyG  pt-4')]/span[text() = 'Булки']")
+    BUNS_BUTTON_ACTIVE = (By.XPATH, ".//div[contains(@class, 'tab_tab_type_current__2BEPc')]/span[text() = 'Булки']")
+    BUNS_BUTTON_INACTIVE = (By.XPATH, ".//div[contains(@class, '1SPyG  pt-4')]/span[text() = 'Булки']")
 
     # вкладка "Соусы" в активном и неактивном состоянии
-    SAUCES_ACTIVE = (By.XPATH, ".//div[contains(@class, 'tab_tab_type_current__2BEPc')]/span[text() = 'Соусы']")
-    SAUCES_IN_ACTIVE = (By.XPATH, ".//div[contains(@class, '1SPyG  pt-4')]/span[text() = 'Соусы']")
+    SAUCES_BUTTON_ACTIVE = (By.XPATH, ".//div[contains(@class, 'tab_tab_type_current__2BEPc')]/span[text() = 'Соусы']")
+    SAUCES_BUTTON_INACTIVE = (By.XPATH, ".//div[contains(@class, '1SPyG  pt-4')]/span[text() = 'Соусы']")
 
     # вкладка "Начинки" в активном и неактивном состоянии
-    FILLINGS_ACTIVE = (By.XPATH, ".//div[contains(@class, 'tab_tab_type_current__2BEPc')]/span[text() = 'Начинки']")
-    FILLINGS_IN_ACTIVE = (By.XPATH, ".//div[contains(@class, '1SPyG  pt-4')]/span[text() = 'Начинки']")
+    FILLINGS_BUTTON_ACTIVE = (By.XPATH, ".//div[contains(@class, 'tab_tab_type_current__2BEPc')]/span[text() = 'Начинки']")
+    FILLINGS_BUTTON_INACTIVE = (By.XPATH, ".//div[contains(@class, '1SPyG  pt-4')]/span[text() = 'Начинки']")
 
     # заголовки "Булки", "Соусы" и "Начинки" в меню ингридиентов
-    SECTION_BUNS = (By.XPATH, ".//div[contains(@class, '__Xu3Mo')]/h2[text() = 'Булки']")
-    SECTION_SAUCES = (By.XPATH, ".//div[contains(@class, '__Xu3Mo')]/h2[text() = 'Соусы']")
-    SECTION_FILLINGS = (By.XPATH, ".//div[contains(@class, '__Xu3Mo')]/h2[text() = 'Начинки']")
+    BUNS_SECTION = (By.XPATH, ".//div[contains(@class, '__Xu3Mo')]/h2[text() = 'Булки']")
+    SAUCES_SECTION = (By.XPATH, ".//div[contains(@class, '__Xu3Mo')]/h2[text() = 'Соусы']")
+    FILLINGS_SECTION = (By.XPATH, ".//div[contains(@class, '__Xu3Mo')]/h2[text() = 'Начинки']")
